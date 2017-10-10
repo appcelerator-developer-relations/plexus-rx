@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="wrapper">
+		<View id="top">
+			<ImageView id="logo" image="plexus.png" />
+		</View>
+		<TableView id="table" />
+		<View id="bottom">
+			<ImageView id="add" image="add.png" />
+			<Label id="resetButton">Reset</Label>
+			<Label id="version" />
+		</View>
+	</Window>
+</Alloy>

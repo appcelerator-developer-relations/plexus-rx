@@ -1,0 +1,35 @@
+<Alloy>
+    <Window id="window">
+        <View id="imageCaptureContainer">
+            <View id="imageCapture" />
+            <ImageView id="resultView" />
+            <View id="captureOverlay">
+                <View class="captureOverlayH captureOverlayTL" />
+                <View class="captureOverlayH captureOverlayTR" />
+                <View class="captureOverlayV captureOverlayLT" />
+                <View class="captureOverlayV captureOverlayRT" />
+                <View class="captureOverlayV captureOverlayLB" />
+                <View class="captureOverlayV captureOverlayRB" />
+                <View class="captureOverlayH captureOverlayBL" />
+                <View class="captureOverlayH captureOverlayBR" />
+            </View>
+            <View id="captureFlash" />
+        </View>
+        <ImageView id="closeButton" image="close.png" />
+        <Label id="captureButton">CAPTURE</Label>
+        <View id="observationsOverlay">
+            <View id="observation1" class="observation">
+                <Label id="observation1Confidence" class="observationConfidence" />
+                <Label id="observation1Identifier" class="observationIdentifier" />
+            </View>
+            <View id="observation2" class="observation">
+                <Label id="observation2Confidence" class="observationConfidence" />
+                <Label id="observation2Identifier" class="observationIdentifier" />
+            </View>
+            <View id="observation3" class="observation">
+                <Label id="observation3Confidence" class="observationConfidence" />
+                <Label id="observation3Identifier" class="observationIdentifier" />
+            </View>
+        </View>
+    </Window>
+</Alloy>

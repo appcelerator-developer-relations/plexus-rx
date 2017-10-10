@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow>
+		<View id="background" />
+		<Label id="drug" />
+		<Label id="interval" />
+	</TableViewRow>
+</Alloy>

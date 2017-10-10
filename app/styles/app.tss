@@ -1,0 +1,21 @@
+"Window": {
+	backgroundColor: "#014780",
+	navBarHidden: true,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	includeOpaqueBars: false,
+	translucent: false,
+	extendEdges: [
+		Ti.UI.EXTEND_EDGE_TOP
+	]
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#FFF"
+},
+"TextField": {
+	keyboardAppearance: Ti.UI.KEYBOARD_APPEARANCE_DARK,
+	showUndoRedoActions: false,
+	autocorrect: false
+}

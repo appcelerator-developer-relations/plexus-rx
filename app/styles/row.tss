@@ -1,0 +1,30 @@
+"TableViewRow": {
+	selectionStyle: Ti.UI.iOS.TableViewCellSelectionStyle.NONE,
+	width: Ti.UI.FILL,
+	backgroundColor: "#20B572",
+	height: 90,
+	editable: true,
+	moveable: false
+},
+"#background": {
+	backgroundColor: "#FFF"
+},
+"#drug": {
+	height: 35,
+	top: 15,
+	left: 10,
+	right: 10,
+	font: {
+		fontSize: 24,
+		fontWeight: "bold"
+	}
+},
+"#interval": {
+	height: 25,
+	top: 50,
+	left: 10,
+	right: 10,
+	font: {
+		fontSize: 18
+	}
+}

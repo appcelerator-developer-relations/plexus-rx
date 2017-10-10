@@ -1,0 +1,50 @@
+
+"#top": {
+	height: 64,
+	width: Ti.UI.FILL,
+	top: 20,
+	left: 0
+},
+"#logo": {
+	height: 44,
+	width: 44,
+	top: 10
+},
+"TableView": {
+	top: 84,
+	left: 0,
+	rowHeight: 90,
+	bottom: 64,
+	backgroundColor: "#90DAB9",
+	separatorStyle: Ti.UI.TABLE_VIEW_SEPARATOR_STYLE_NONE
+},
+"#bottom": {
+	bottom: 0,
+	left: 0,
+	height: 64,
+	width: Ti.UI.FILL
+},
+"#add": {
+	width: 44,
+	height: 44,
+	top: 10
+}
+"#resetButton": {
+	top: 10,
+	left: 10,
+	width: 100,
+	height: 44,
+	backgroundColor: "#014780",
+	color: "#014780",
+	textAlign: "center"
+}
+"#version": {
+	bottom: 5,
+	right: 5,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	color: "#66ffffff",
+	font: {
+		fontSize: 10
+	}
+}

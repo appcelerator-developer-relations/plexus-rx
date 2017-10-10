@@ -1,0 +1,171 @@
+
+"#window": {
+    backgroundColor: "#000"
+}
+
+".statusBackground": {
+    top: 0,
+    left: 0,
+    width: Ti.UI.FILL,
+    height: 20,
+    backgroundColor: "#014780"
+}
+
+"#imageCaptureContainer": {
+    top: 20,
+    left: 0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE
+}
+
+"#imageCapture": {
+    top: 0,
+    left: 0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+}
+
+"#resultView": {
+    top: 0,
+    left: 0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+}
+
+"#captureFlash": {
+    top: 0,
+    left: 0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: "#fff",
+    visible: false
+}
+
+"#captureOverlay": {
+    top: "15%",
+    left: "15%",
+    right: "15%",
+    bottom: "15%",
+    opacity: 0.3
+}
+
+".captureOverlayH": {
+    width: "10%",
+    height: 3,
+    backgroundColor: "#fff"
+}
+
+".captureOverlayV": {
+    width: 3,
+    height: "10%",
+    backgroundColor: "#fff"
+}
+
+".captureOverlayTL": {
+    top: 0,
+    left: 0
+}
+
+".captureOverlayTR": {
+    top: 0,
+    right: 0
+}
+
+".captureOverlayLT": {
+    top: 0,
+    left: 0
+}
+
+".captureOverlayRT": {
+    top: 0,
+    right: 0
+}
+
+".captureOverlayLB": {
+    bottom: 0,
+    left: 0
+}
+
+".captureOverlayRB": {
+    bottom: 0,
+    right: 0
+}
+
+".captureOverlayBL": {
+    bottom: 0,
+    left: 0
+}
+
+".captureOverlayBR": {
+    bottom: 0,
+    right: 0
+}
+
+"#closeButton": {
+    top: 35,
+    right: 15,
+    width: 33,
+    height: 33
+}
+
+"#captureButton": {
+    bottom: 30,
+    width: 150,
+    height: 44,
+    borderRadius: 6,
+    backgroundColor: "#20b572",
+    color: "#fff",
+    textAlign: "center",
+    font: {
+        fontWeight: "bold",
+        fontSize: 18
+    },
+    opacity: 0.3,
+    touchEnabled: false
+}
+
+"#observationsOverlay": {
+    left: 0,
+    right: 0,
+    bottom: 0,
+    height: 130,
+    backgroundColor: "#cc000000",
+    layout: "vertical",
+    visible: false
+}
+
+".observation": {
+    top: 10,
+    height: 30,
+    layout: "horizontal"
+}
+
+".observationIcon": {
+    top: 5,
+    left: 20,
+    width: 20,
+    height: 20,
+    borderRadius: 10
+}
+
+".observationConfidence": {
+    left: 20,
+    width: 40,
+    height: Ti.UI.FILL,
+    color: "#aaa",
+    textAlign: "right",
+    font: {
+        fontSize: 18
+    }
+}
+
+".observationIdentifier": {
+    left: 10,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    color: "#fff",
+    font: {
+        fontWeight: "bold",
+        fontSize: 18
+    }
+}
