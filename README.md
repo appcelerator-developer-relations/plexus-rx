@@ -9,7 +9,7 @@ This project requires Xcode 9 with iOS 11 SDK and Titanium 6.2.x.
 ### Import the project
 
 * Studio: File > Import... > Git > Git Repository as New Project
-* CLI: Clone the repo then move to the project directory and run 
+* CLI: Clone the repo then move to the project directory and run
 
         appc new --import --no-services
 
@@ -17,10 +17,11 @@ This project requires Xcode 9 with iOS 11 SDK and Titanium 6.2.x.
 
 #### Native modules
 
-The following native modules are required. Download the latest release and copy into the `modules/iphone` directory.
+The following native modules are required and included in the project.
 
 * [CoreML](https://github.com/hansemannn/titanium-coreml) - machine learning image object recognition
 * [Vision](https://github.com/hansemannn/titanium-vision) - image text region detection
+* [ImageFactory](https://github.com/appcelerator-modules/ti.imagefactory) - image transformation
 
 #### CoreML model
 
@@ -49,7 +50,7 @@ The app presents a pre-populated list of medication - drug title and dosage. Tap
 
 ### Image capture
 
-The image capture screen has two modes 
+The image capture screen has two modes
 
 * recognising and processing pill bottle image labels (see [/drugs]() directory for source images to capture)
 * general object recognition
